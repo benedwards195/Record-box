@@ -1,0 +1,76 @@
+body {
+    background-color: navy;
+}
+
+.recbox {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+  overflow: hidden;
+  background-color: navy;
+}
+
+.recbox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.4); 
+  color: white;
+}
+
+.contact-column {
+    align-items: flex-start;
+}
+
+.setlist-column {
+    align-items: center;
+}
+
+.contact-column,
+.setlist-column {
+display: flex;
+  flex-direction: column;
+  flex: 1 1 45%;
+  max-width: 45%;
+}
+
+.contact-list, .setlist-list {
+  list-style: disc inside; 
+  padding: 0;       /* removes default padding */
+  margin: 0;        /* removes default margin */
+}
+
+.contact-list li, .setlist-list li {
+  display: flex;
+  align-items: center; /* vertically aligns icon and text */
+  gap: 0.5rem;         /* controls spacing between icon and text */
+  margin-bottom: 0.25rem; /* optional: reduce spacing between items */
+}
+
+
+
+.icon {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  flex-shrink: 0; 
+  font-size: 1.2rem;
+}
+
+.contact-section h2 {
+    color: gold;
+    font-family: 'Poppins', sans-serif;;
+}

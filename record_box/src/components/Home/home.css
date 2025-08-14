@@ -1,0 +1,305 @@
+/* ==========================
+   Global Styles
+========================== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F7F7;
+    color: #1B263B;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #001F3F;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #E3B23C;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FF6B6B;
+}
+
+.neat-list {
+    list-style: disc inside;
+    /* margin: 0; */
+    margin-top: 0;
+    padding-left: 1.2rem;
+    list-style-position: inside; 
+}
+
+
+/* ==========================
+   Header
+========================== */
+header {
+    background-color: #001F3F;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #E3B23C;
+}
+
+/* ==========================
+   Sections
+========================== */
+section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    color: navy;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* --------------------------
+   Band Bio Section
+-------------------------- */
+.band-bio-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: black;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.band-bio-article,
+.band-bio-top-songs {
+    flex: 1;
+    min-width: 300px;
+}
+
+.band-bio-article {
+    max-width: 50%;
+    margin-right: 2rem;
+}
+
+.band-bio-article h2 {
+    font-size: 2rem;
+    color: navy;
+    margin-bottom: 1rem;
+    font-family: cursive;
+}
+
+.band-bio-top-songs {
+  padding-left: 0;
+}
+
+.band-bio-article p,
+.band-bio-top-songs p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    font-family: sans-serif;
+}
+
+.band-bio-top-songs h2 {
+    font-size: 2rem;
+    color: navy;
+    margin-bottom: 1rem;
+    font-family: cursive;
+}
+
+.band-bio-top-songs ul {
+    /* display: block;
+    padding-left: 0;
+    list-style: disc;
+    text-decoration: underline;
+    margin-bottom: 1.5rem; */
+    /* text-align: left;
+    all: unset;
+    display: block;
+    list-style: disc;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0; */
+      /* margin-left: 0;
+    padding-left: 1rem;
+    list-style: disc;
+    list-style-position: inside;
+    text-align: center; */
+    list-style: inside disc; 
+    text-align: center;      
+    padding-left: 0;       
+    margin: 0 auto;     
+    display: inline-block;
+}
+
+.band-bio-top-songs li {
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* --------------------------
+   Meet the Band Section
+-------------------------- */
+.meet-band-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    color: black;
+    flex-wrap: nowrap;
+}
+
+.meet-band-article {
+    padding-right: 1rem;
+    flex: 0 0 40%; 
+}
+
+.meet-band-article h1 {
+    font-size: 2.5rem;
+    color: gold;
+    margin-bottom: 1rem;
+}
+
+.meet-band-article h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #001F3F;
+    font-family: cursive;
+}
+
+.meet-band-article h3 {
+    font-size: 1.5rem;
+    color: #001F3F;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.meet-band-article p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+.right-side-placeholder {
+  flex: 0 0 40%; /* fixed column width */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+    /* padding-left: 1rem; */
+}
+
+/* --------------------------
+   What We Offer
+-------------------------- */
+
+.what-we-offer {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.what-we-offer h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #001F3F;
+    font-family: cursive;
+}
+
+.what-we-offer h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    max-width: 10ch;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.what-we-offer-pricing-description {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 1.5rem;
+    align-items: right;
+    /* max-width: 75%; */
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.availability  {
+  color: #001F3F;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+/* Contact-Section  */
+.contact-section {
+  background-color: darkslateblue;
+}
+
+
+/* --------------------------
+   Footer
+-------------------------- */
+footer {
+    background-color: #001F3F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* ==========================
+   Responsive Design
+========================== */
+@media (max-width: 900px) {
+    .band-bio-section {
+        flex-direction: column;
+    }
+
+    .band-bio-article,
+    .band-bio-top-songs {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .meet-band-section {
+        flex-direction: column;
+    }
+
+    .meet-band-article,
+    .right-side-placeholder {
+        flex: 1 1 50%;
+        box-sizing: border-box;
+    }
+}
+
+
