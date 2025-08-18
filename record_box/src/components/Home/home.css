@@ -51,7 +51,7 @@ header h1 {
     font-size: 1.8rem;
 }
 
-nav a {
+/* nav a {
     color: white;
     margin-left: 20px;
     font-weight: 500;
@@ -59,6 +59,36 @@ nav a {
 
 nav a:hover {
     color: #E3B23C;
+} */
+
+/* Navbar */
+
+.banner-nav {
+  background-color: #001F3F;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+  color: white;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.banner-nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner-nav a:hover {
+  text-decoration: underline;
+  color: purple;
 }
 
 /* ==========================
@@ -77,6 +107,71 @@ article {
     flex: 1;
     min-width: 300px;
 }
+
+/* --------------------------
+   Intro
+
+--------------------------- */
+
+.hero {
+  /* padding-top: 5rem;  */
+  text-align: center;
+  position: relative;
+}
+
+.banner-intro {
+  /* position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: gold;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  max-width: 90%; */
+  margin-left: 2rem;
+    position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.record-box {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #001F3F;
+  margin-bottom: 0.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner-intro .intro {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  color: #001F3F;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner-intro h2 {
+  font-size: 2rem;
+  color: #001F3F;
+}
+
+/* .banner-socials {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.banner-socials a {
+  color: #001F3F;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.banner-socials a:hover {
+  color: gold;
+} */
 
 /* --------------------------
    Band Bio Section
@@ -104,9 +199,9 @@ article {
 
 .band-bio-article h2 {
     font-size: 2rem;
-    color: navy;
+    color: #001F3F;
     margin-bottom: 1rem;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .band-bio-top-songs {
@@ -125,9 +220,9 @@ article {
 
 .band-bio-top-songs h2 {
     font-size: 2rem;
-    color: navy;
+    color: #001F3F;
     margin-bottom: 1rem;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .band-bio-top-songs ul {
@@ -191,7 +286,7 @@ article {
     font-size: 2rem;
     margin-bottom: 2rem;
     color: #001F3F;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .meet-band-article h3 {
@@ -199,7 +294,7 @@ article {
     color: #001F3F;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .meet-band-article p {
@@ -229,7 +324,7 @@ article {
     font-size: 2rem;
     margin-bottom: 2rem;
     color: #001F3F;
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .what-we-offer h3 {
@@ -255,7 +350,7 @@ article {
 .availability  {
   color: #001F3F;
   font-size: 2rem;
-  font-family: cursive;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Contact-Section  */
@@ -280,6 +375,14 @@ footer {
    Responsive Design
 ========================== */
 @media (max-width: 900px) {
+
+  .banner-nav a {
+    margin-right: 1rem;
+  }
+   
+  .banner-intro .intro {
+      font-size: 1.1rem;
+    }
     .band-bio-section {
         flex-direction: column;
     }
@@ -288,9 +391,28 @@ footer {
     .band-bio-top-songs {
         max-width: 100%;
     }
+
+    .banner-nav {
+     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    }
 }
 
 @media (max-width: 768px) {
+    .record-box {
+      font-size: 2rem;
+    }
+
+    .banner-intro {
+      font-size: 1.5rem;
+    }
+    
+    .banner-intro .intro {
+      font-size: 1rem;
+    }
+
     .meet-band-section {
         flex-direction: column;
     }
@@ -301,5 +423,26 @@ footer {
         box-sizing: border-box;
     }
 }
+
+@media (max-width: 590px) {
+    .banner-nav a {
+  font-size: 0.85rem;
+}
+}
+
+@media (max-width: 520px) {
+  .record-box {
+    font-size: 1.6rem;
+  }
+
+  .banner-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .banner-text .intro {
+    font-size: 0.9rem;
+  }
+}
+
 
 

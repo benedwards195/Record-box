@@ -5,8 +5,31 @@ import './home.css';
 export const Home = () => {
 return (
     <>
+       <nav className="banner-nav">
+                        <a href="#band-bio">Band Bio</a>
+                        <a href="#meet-the-band">Meet the Band</a>
+                          <a href="#our-sound">Our Sound</a>
+                        <a href="#pricing">Pricing</a>
+                         <a href="#contact">Contact</a>
+                      </nav>
             <div className="hero">
+            
         <Banner />
+                      <div className="banner-intro">
+            <h1 className="record-box">RECORD BOX</h1>
+            <h2>Live Music for Unforgettable Events</h2>
+            <p className="intro">
+              From weddings to birthdays and private parties, Record Box delivers high energy live performances packed with crowd-pleasing hits from every era.
+            </p>
+    
+{/*     
+             <div className="banner-socials">
+              <a href="https://instagram.com" target="@rec.ordbox" rel="noopener noreferrer"><FaInstagram /></a>
+              <a href="https://spotify.com" target="_blank" rel="noopener noreferrer"><FaSpotify /></a>
+              <a href="mailto:band@example.com" target="recordboxband@gmail.com" rel="noopener noreferrer"><FaEnvelope /></a>
+              <a href="https://facebook.com" target="@RecordBoxEventsBand" rel="noopener noreferrer"><FaFacebookF /></a>
+            </div> */}
+          </div>
     </div>
     <div>
    <section id="band-bio" className="band-bio-wrapper">
