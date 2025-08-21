@@ -50,15 +50,15 @@ display: flex;
 
 .contact-list, .setlist-list {
   list-style: disc inside; 
-  padding: 0;       /* removes default padding */
-  margin: 0;        /* removes default margin */
+  padding: 0;      
+  margin: 0;       
 }
 
 .contact-list li, .setlist-list li {
   display: flex;
-  align-items: center; /* vertically aligns icon and text */
-  gap: 0.5rem;         /* controls spacing between icon and text */
-  margin-bottom: 0.25rem; /* optional: reduce spacing between items */
+  align-items: center;
+  gap: 0.5rem;       
+  margin-bottom: 0.25rem; 
 }
 
 

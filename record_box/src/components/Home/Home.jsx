@@ -21,14 +21,7 @@ return (
             <p className="intro">
               From weddings to birthdays and private parties, Record Box delivers high energy live performances packed with crowd-pleasing hits from every era.
             </p>
-    
-{/*     
-             <div className="banner-socials">
-              <a href="https://instagram.com" target="@rec.ordbox" rel="noopener noreferrer"><FaInstagram /></a>
-              <a href="https://spotify.com" target="_blank" rel="noopener noreferrer"><FaSpotify /></a>
-              <a href="mailto:band@example.com" target="recordboxband@gmail.com" rel="noopener noreferrer"><FaEnvelope /></a>
-              <a href="https://facebook.com" target="@RecordBoxEventsBand" rel="noopener noreferrer"><FaFacebookF /></a>
-            </div> */}
+  
           </div>
     </div>
     <div>
