@@ -93,7 +93,7 @@ return (
       <ul className="neat-list">
         <li><b>Local Events</b> - Starting Price: £400 </li>
         <li><b>Weddings</b> - Starting Price: £800</li>
-        <li><b>Private Parties</b> - Starting Price: £60098i</li>
+        <li><b>Private Parties</b> - Starting Price: £600</li>
       </ul>
     </div>
     <div>

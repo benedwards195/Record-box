@@ -17,7 +17,7 @@ return (
         <Banner />
                       <div className="banner-intro">
             <h1 className="record-box">RECORD BOX</h1>
-            <h2>Live Music for Unforgettable Events</h2>
+            <h2>Live Music For Unforgettable Events</h2>
             <p className="intro">
               From weddings to birthdays and private parties, Record Box delivers high energy live performances packed with crowd-pleasing hits from every era.
             </p>
@@ -37,9 +37,9 @@ return (
   </article>
 
   <article className="band-bio-top-songs">
-    <h2>Top song performances</h2>
+    <h2>Top Song Performances</h2>
     <p>
-      Their expansive repertoire covers decades of feel-good hits — from soul classics and rock anthems to disco bangers and modern pop chart-toppers — including crowd favorites like:
+      Their expansive repertoire covers decades of feel-good hits — from soul classics and rock anthems to disco bangers and modern pop chart-toppers — including crowd favourites like:
     </p>
     <ul className="neat-list">
       <li>Dancing Queen</li>
@@ -61,7 +61,7 @@ return (
 <div>
     <section id="meet-the-band" className="meet-band-section">
     <article className="meet-band-article">
-      <h2>Meet the Band</h2>
+      <h2>Meet The Band</h2>
       <h4>
         Our lineup features a tight-knit group of musicians with a shared love for music and live performance:
       </h4>
@@ -109,7 +109,7 @@ return (
       <ul className="neat-list">
         <li><b>Local Events</b> - Starting Price: £400 </li>
         <li><b>Weddings</b> - Starting Price: £800</li>
-        <li><b>Private Parties</b> - Starting Price: £60098i</li>
+        <li><b>Private Parties</b> - Starting Price: £600</li>
       </ul>
     </div>
     <div>
